@@ -1,0 +1,366 @@
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+ul a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+
+}
+
+a:hover {
+    color: white;
+    background-color: bisque;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+}
+
+.header {
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    height: 12%;
+    z-index: 1;
+    width: 100%;
+}
+
+
+.brown {
+    background-color: burlywood;
+}
+
+.background {
+    background-image: linear-gradient(0deg, rgba(1, 1, 1, 0.3), rgba(1, 1, 1, 0.6)), url('Bg_2.jpg');
+    background-position: -5px;
+    height: 90vh;
+    width: 100vw;
+
+
+}
+
+.text-center {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 70px;
+    padding-top: 150px;
+
+
+}
+
+.par1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+
+}
+
+.text-color {
+    color: white;
+    border: 2px solid bisque;
+
+}
+
+.bg4-image {
+    box-shadow: -15px -15px #deb887;
+
+}
+
+
+
+.Welcome {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    font-weight: bolder;
+    padding-left: 50px;
+
+}
+
+.text1 {
+    text-align: center;
+
+}
+
+.text2 {
+
+    text-align: center;
+}
+
+.reserv1 {
+    border: 2px solid burlywood;
+}
+
+.resrv {
+    margin-left: 280px;
+    padding: 20px;
+
+}
+
+.background2 {
+    background-image: linear-gradient(0deg, rgba(1, 1, 1, 0.3), rgba(1, 1, 1, 0.6)), url('Bg_5.jpg');
+    background-position: center;
+    height: 50%;
+    text-align: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+.back2p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 70px;
+    color: white;
+}
+
+
+.spl {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.lorem {
+    text-align: center;
+    margin-top: -40px;
+}
+
+.buttons {
+    border: 1px solid gray;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.box {
+    width: 30%;
+    margin: auto;
+}
+
+.bounds {
+    width: 35%;
+    height: 18em;
+    transition: all linear 1s;
+    text-align: center;
+}
+
+
+@media screen and (max-width:900px) {
+    .bounds {
+        width: 18em;
+        height: 35%;
+
+    }
+
+}
+
+.drink1 {
+    background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url('Drinks_1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+#d1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#middle {
+    font-size: 14px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -20px;
+
+}
+
+#p1 {
+    font-weight: bolder;
+
+}
+
+.drink2 {
+    background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url('Drinks_2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 30px;
+
+}
+
+.drink3 {
+    background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url('Drinks_3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.lunch1 {
+    background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url('Lunch_1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.lunch2 {
+    background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url('Lunch_2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.lunch3 {
+    background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url('Lunch_3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.dinner1 {
+    background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url('Dinner_1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.dinner2 {
+    background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url('Dinner_2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.dinner3 {
+    background-image: linear-gradient(0deg, rgba(204, 156, 92, 0.7), rgba(204, 156, 92, 0.9)), url('Dinner_3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.bound {
+    width: 23%;
+    height: 30%;
+    transition: all linear 1s;
+    text-align: center;
+    padding: 0%;
+}
+
+
+@media screen and (max-width:900px) {
+    .bound {
+        width: 20%;
+        height: 23%;
+
+    }
+
+}
+
+.gallarys:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+
+}
+
+.review {
+    text-align: center;
+}
+
+.ceo {
+    width: 10%;
+    border-radius: 100%;
+    border: 1px solid #e4e4e4;
+    padding: 0.4rem;
+
+}
+
+.name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: bolder;
+    color: burlywood;
+}
+
+
+.ceo1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.lorem2 {
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+    line-height: 20px;
+    padding-left: 30em;
+    padding-right: 30em;
+
+}
+
+.contactinfo {
+    background-color: burlywood;
+}
+
+.fotinfo {
+    background-color: rgb(44, 40, 40);
+
+}
+
+.subb {
+
+    width: 100%;
+}
+
+.fot {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 60px;
+    height: 150px;
+    text-align: center;
+}
+
+#pin {
+    text-align: center;
+    margin-left: 80px;
+}
